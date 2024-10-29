@@ -76,4 +76,17 @@ print("Hasil: " + str(hasil))
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/Kalkulator.drawio.png)
 
 Penjelasan:
-- 
+```python
+angka1 = int(input("Masukkan angka pertama: "))
+```
+- Program meminta pengguna untuk memasukkan angka pertama. Fungsi input() digunakan untuk mengambil input dari pengguna, dan int() mengonversi input tersebut menjadi tipe data integer.
+```python
+operasi_bilangan = input("Masukkan operasi bilangan (+, -, *, /): ")
+```
+- Pengguna diminta untuk memasukkan jenis operasi yang ingin dilakukan (penjumlahan, pengurangan, perkalian, atau pembagian). Input ini disimpan sebagai string.
+  
+```python
+angka2 = int(input("Masukkan angka kedua: "))
+```
+- Pengguna diminta untuk memasukkan angka kedua, yang juga diubah menjadi tipe data integer.
+  
