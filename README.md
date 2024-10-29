@@ -47,7 +47,7 @@ print(f"Total harga yang harus dibayar: Rp{total_harga:,.0f}")
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/Tiket%20Bioskop.drawio.png)
 
 Penjelasan:
-- 
+1. 
 
 # kasus 2 program kalkulator sederhana
 
@@ -76,35 +76,17 @@ print("Hasil: " + str(hasil))
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/Kalkulator.drawio.png)
 
 Penjelasan:
-```python
-angka1 = int(input("Masukkan angka pertama: "))
-```
-- Program meminta pengguna untuk memasukkan angka pertama. Fungsi input() digunakan untuk mengambil input dari pengguna, dan int() mengonversi input tersebut menjadi tipe data integer.
-```python
-operasi_bilangan = input("Masukkan operasi bilangan (+, -, *, /): ")
-```
-- Pengguna diminta untuk memasukkan jenis operasi yang ingin dilakukan (penjumlahan, pengurangan, perkalian, atau pembagian). Input ini disimpan sebagai string.  
-```python
-angka2 = int(input("Masukkan angka kedua: "))
-```
-- Pengguna diminta untuk memasukkan angka kedua, yang juga diubah menjadi tipe data integer.
-```python
-if operasi_bilangan == '+':
-    hasil = angka1 + angka2
-elif operasi_bilangan == '-':
-    hasil = angka1 - angka2
-elif operasi_bilangan == '*':
-    hasil = angka1 * angka2
-else:
-    operasi_bilangan == '/'
-    hasil = angka1 / angka2
-```
-- Program menggunakan struktur kontrol if-elif-else untuk menentukan operasi yang dipilih oleh pengguna.
-    Jika pengguna memilih '+', maka program akan menjumlahkan angka1 dan angka2.
-    Jika pengguna memilih '-', maka program akan mengurangkan angka1 dengan angka2.
-    Jika pengguna memilih '*', maka program akan mengalikan angka1 dengan angka2.
-    Jika pengguna memilih '/', maka program akan membagi angka1 dengan angka2. Namun, ada kesalahan di bagian ini: operasi_bilangan == '/' seharusnya tidak ada, karena ini hanya             memeriksa kondisi dan tidak perlu diatur ulang.Program menggunakan struktur kontrol if-elif-else untuk menentukan operasi yang dipilih oleh pengguna.
-    Jika pengguna memilih '+', maka program akan menjumlahkan angka1 dan angka2.
-    Jika pengguna memilih '-', maka program akan mengurangkan angka1 dengan angka2.
-    Jika pengguna memilih '*', maka program akan mengalikan angka1 dengan angka2.
-    Jika pengguna memilih '/', maka program akan membagi angka1 dengan angka2. Namun, ada kesalahan di bagian ini: operasi_bilangan == '/' seharusnya tidak ada, karena ini hanya             memeriksa kondisi dan tidak perlu diatur ulang.
+1. input angka pertama
+  - Program meminta untuk memasukkan angka pertama. Fungsi input() digunakan untuk mengambil input dari pengguna, dan int() mengonversi input tersebut menjadi tipe data integer.
+2. input operasi bilangan
+  - Program meminta untuk memasukkan jenis operasi yang ingin dilakukan (penjumlahan, pengurangan, perkalian, atau pembagian). Input ini disimpan sebagai string.
+3. input angka kedua
+  - Program meminta untuk memasukkan angka kedua, yang juga diubah menjadi tipe data integer.
+4. Menentukan operasi yang ingin digunakan
+  -Program menggunakan struktur kontrol if-elif-else untuk menentukan operasi yang dipilih
+  -Jika memilih + maka program akan menjumlahkan angka 1 dan angka 2
+  -Jika memilih - maka program akan mengurangkan angka 1 dengan angka 2
+  -Jika memilih * maka program akan mengalikan angka 1 dengan angka 2
+  -Jika memilih / maka program akan membagi angka 1 dengan angka 2
+5. Menampilkan Hasil
+  -Program mencetak hasil dari operasi yang telah dilakukan. Fungsi str() digunakan untuk mengonversi hasil (yang berupa angka) menjadi string agar bisa digabungkan dengan teks lainnya. 
