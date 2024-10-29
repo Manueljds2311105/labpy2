@@ -8,25 +8,33 @@ Dosen Pengampu:  Agung Nugroho, S.Kom., M.Kom.,
 Mata Kuliah: Bahasa Pemograman
 
 # Latihan 1 Menentukan Nilai Akhir
+# flowchart
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/Latihan%201.drawio.png)
+# Hasil eksekusi program
+![foto](https://github.com/Manueljds2311105/foto/blob/fb7df9fb3391d172694e883dd6cb6895461c2b32/Latihan%201%20Menentukan%20nilai%20akhir.png)
 
 Penjelasan:
 - 
 
 # Latihan 2 Status Gaji Karyawan
+# flowchart
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/latihan%202.drawio.png)
+# Hasil eksekusi program
+![foto](https://github.com/Manueljds2311105/foto/blob/fb7df9fb3391d172694e883dd6cb6895461c2b32/Latihan%202%20Membuat%20Program%20Status%20Gaji%20Karyawan.png)
 
 Penjelasan:
 - 
 
 # Latihan 3 Penggunaan Kondisi or
+# flowchart
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/Latihan%203%20kondisi%20or.drawio.png)
+# Hasil eksekusi program
+![foto](https://github.com/Manueljds2311105/foto/blob/fb7df9fb3391d172694e883dd6cb6895461c2b32/Latihan%203%20penggunaan%20kondisi%20or.png)
 
 Penjelasan:
 - 
 
 # kasus 1 Program Pemesanan Tiket Bioskop
-
 # kode python
 ```python
 # Harga tiket
@@ -45,6 +53,8 @@ print(f"Total harga yang harus dibayar: Rp{total_harga:,.0f}")
 ```
 # flowchart
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/Tiket%20Bioskop.drawio.png)
+# Hasil eksekusi program
+![foto](https://github.com/Manueljds2311105/foto/blob/fb7df9fb3391d172694e883dd6cb6895461c2b32/Tiket%20Bioskop.py.png)
 
 Penjelasan:
 1. Harga Tiket
@@ -82,6 +92,8 @@ print("Hasil: " + str(hasil))
 ```
 # flowchart
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/Kalkulator.drawio.png)
+# Hasil eksekusi program
+![foto](https://github.com/Manueljds2311105/foto/blob/fb7df9fb3391d172694e883dd6cb6895461c2b32/Kalkulator%20sederhana.py.png)
 
 Penjelasan:
 1. input angka pertama
