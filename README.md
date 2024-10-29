@@ -14,8 +14,34 @@ Mata Kuliah: Bahasa Pemograman
 ![foto](https://github.com/Manueljds2311105/foto/blob/fb7df9fb3391d172694e883dd6cb6895461c2b32/Latihan%201%20Menentukan%20nilai%20akhir.png)
 
 Penjelasan:
-- 
+1. input data
+- Kode ini meminta untuk memasukkan beberapa data: nama, nilai UTS (Ujian Tengah Semester), nilai UAS (Ujian Akhir Semester), dan nilai Tugas. Semua input ini diambil dalam bentuk string menggunakan fungsi input().
+2. menghitung nilai akhir
+- Nilai akhir dihitung dengan rumus yang menggabungkan nilai tugas, UTS, dan UAS dengan bobot yang berbeda.
+Tugas memiliki bobot 20% (0.2)
 
+UTS memiliki bobot 40% (0.4)
+
+UAS juga memiliki bobot 40% (0.4)
+- Fungsi int() digunakan untuk mengonversi nilai yang diinput dari string ke integer sebelum melakukan perhitungan.
+python
+3. Menentukan keterangan lulus atau tidak
+- Keterangan lulus atau tidak ditentukan berdasarkan nilai akhir. Jika nilai akhir lebih besar dari 60, maka keterangan adalah "LULUS", jika tidak, keterangan adalah "TIDAK LULUS".
+4. Menentukan nilai huruf
+- Nilai huruf ditentukan berdasarkan rentang nilai akhir:
+
+A untuk nilai lebih dari 80
+
+B untuk nilai lebih dari 70
+
+C untuk nilai lebih dari 50
+
+D untuk nilai lebih dari 40
+
+E untuk nilai 40 ke bawah
+- Struktur if-elif-else digunakan untuk menentukan huruf yang sesuai.
+5. Menampilkan hasil
+- Setelah semua perhitungan selesai, kode ini mencetak hasilnya, termasuk nama, nilai UTS, UAS, tugas, nilai akhir, nilai huruf, dan keterangan lulus atau tidak.
 # Latihan 2 Status Gaji Karyawan
 # flowchart
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/latihan%202.drawio.png)
@@ -104,9 +130,13 @@ Penjelasan:
   - Program meminta untuk memasukkan angka kedua, yang juga diubah menjadi tipe data integer.
 4. Menentukan operasi yang ingin digunakan
   - Program menggunakan struktur kontrol if-elif-else untuk menentukan operasi yang dipilih
-  - Jika memilih + maka program akan menjumlahkan angka 1 dan angka 2
-  - Jika memilih - maka program akan mengurangkan angka 1 dengan angka 2
-  - Jika memilih * maka program akan mengalikan angka 1 dengan angka 2
-  - Jika memilih / maka program akan membagi angka 1 dengan angka 2
+
+Jika memilih + maka program akan menjumlahkan angka 1 dan angka 2
+
+Jika memilih - maka program akan mengurangkan angka 1 dengan angka 2
+
+Jika memilih * maka program akan mengalikan angka 1 dengan angka 2
+
+Jika memilih / maka program akan membagi angka 1 dengan angka 2
 5. Menampilkan Hasil
   - Program mencetak hasil dari operasi yang telah dilakukan. Fungsi str() digunakan untuk mengonversi hasil (yang berupa angka) menjadi string agar bisa digabungkan dengan teks lainnya. 
