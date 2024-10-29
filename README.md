@@ -47,8 +47,16 @@ print(f"Total harga yang harus dibayar: Rp{total_harga:,.0f}")
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/Tiket%20Bioskop.drawio.png)
 
 Penjelasan:
-1. 
-
+1. Harga Tiket
+- Di sini, sebuah dictionary bernama harga didefinisikan untuk menyimpan harga tiket berdasarkan tipe. Tipe tiket yang tersedia adalah 'reguler' dengan harga Rp50.000 dan 'vip' dengan   harga Rp100.000.
+2. Diskon untuk member
+- Variabel 'diskon_member' didefinisikan dengan nilai 0.20, yang berarti ada diskon sebesar 20% bagi pemegang kartu member.
+3. Input tipe tiket dan status member
+- Kode meminta input untuk menentukan tipe tiket yang ingin dibeli (apakah 'reguler' atau 'vip') dan juga menanyakan apakah memiliki kartu member atau tidak.
+4. Menghitung Harga Tiket
+- Di sini, total harga dihitung berdasarkan tipe tiket yang dipilih. 'Fungsi harga.get(tipe_tiket)' digunakan untuk mendapatkan harga tiket sesuai dengan tipe yang dimasukkan oleh pengguna. Jika pengguna memiliki kartu member '(status_member == "ya")', maka total harga akan dikalikan dengan (1 - diskon_member) untuk menerapkan diskon. Jika tidak, total harga tetap sama
+5. Menampilkan total harga
+- Terakhir, kode ini menampilkan total harga yang harus dibayar dalam format yang lebih mudah dibaca, yaitu dengan menambahkan pemisah ribuan dan tanpa desimal. Misalnya, jika total harga adalah Rp80.000, maka output akan ditampilkan sebagai "Total harga yang harus dibayar: Rp80.000".
 # kasus 2 program kalkulator sederhana
 
 # kode python
