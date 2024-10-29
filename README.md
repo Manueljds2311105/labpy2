@@ -17,12 +17,13 @@ Penjelasan:
 1. input data
 - Kode ini meminta untuk memasukkan beberapa data: nama, nilai UTS (Ujian Tengah Semester), nilai UAS (Ujian Akhir Semester), dan nilai Tugas. Semua input ini diambil dalam bentuk string menggunakan fungsi input().
 2. menghitung nilai akhir
-- Nilai akhir dihitung dengan rumus yang menggabungkan nilai tugas, UTS, dan UAS dengan bobot yang berbeda.
-Tugas memiliki bobot 20% (0.2)
+- Nilai akhir dihitung dengan rumus yang menggabungkan nilai tugas, UTS, dan UAS dengan bobot yang berbeda:
 
-UTS memiliki bobot 40% (0.4)
+    Tugas memiliki bobot 20% (0.2)
 
-UAS juga memiliki bobot 40% (0.4)
+    UTS memiliki bobot 40% (0.4)
+
+    UAS juga memiliki bobot 40% (0.4)
 - Fungsi int() digunakan untuk mengonversi nilai yang diinput dari string ke integer sebelum melakukan perhitungan.
 python
 3. Menentukan keterangan lulus atau tidak
@@ -30,15 +31,15 @@ python
 4. Menentukan nilai huruf
 - Nilai huruf ditentukan berdasarkan rentang nilai akhir:
 
-A untuk nilai lebih dari 80
+    A untuk nilai lebih dari 80
 
-B untuk nilai lebih dari 70
+    B untuk nilai lebih dari 70
 
-C untuk nilai lebih dari 50
+    C untuk nilai lebih dari 50
 
-D untuk nilai lebih dari 40
+    D untuk nilai lebih dari 40
 
-E untuk nilai 40 ke bawah
+    E untuk nilai 40 ke bawah
 - Struktur if-elif-else digunakan untuk menentukan huruf yang sesuai.
 5. Menampilkan hasil
 - Setelah semua perhitungan selesai, kode ini mencetak hasilnya, termasuk nama, nilai UTS, UAS, tugas, nilai akhir, nilai huruf, dan keterangan lulus atau tidak.
@@ -49,8 +50,22 @@ E untuk nilai 40 ke bawah
 ![foto](https://github.com/Manueljds2311105/foto/blob/fb7df9fb3391d172694e883dd6cb6895461c2b32/Latihan%202%20Membuat%20Program%20Status%20Gaji%20Karyawan.png)
 
 Penjelasan:
-- 
-
+1. input gaji
+- Kode ini meminta untuk memasukkan nilai gaji. Nilai yang dimasukkan akan diubah menjadi tipe data integer dan disimpan dalam variabel gaji.
+2. input status keluarga
+- Kode ini meminta untuk menjawab apakah sudah berkeluarga atau tidak dengan memasukkan "Y" (ya) atau "T" (tidak). Jika memasukkan "Y", maka berkeluarga akan bernilai True, jika tidak maka akan bernilai False
+3. input status kepemilikan rumah
+- Kode ini mirip dengan kode sebelumnya, tetapi kali ini menanyakan apakah memiliki rumah. Jika menjawab "Y", maka punya_rumah akan bernilai True, jika tidak akan bernilai False.
+4. pemeriksaan gaji
+- Kode ini memeriksa apakah gaji pengguna lebih besar dari 3.000.000. Jika ya, maka akan melanjutkan ke kode berikutnya.
+5. pesan jika gaji diatas umr
+- Jika gaji lebih dari 3.000.000, maka program akan mencetak bahwa gaji sudah di atas UMR.
+6. pemerriksaan status keluarga dan asuransi
+- Jika sudah berkeluarga (berkeluarga bernilai True), maka program akan menyarankan untuk ikut asuransi dan menabung untuk pensiun. Jika tidak, program akan mencetak bahwa tidak perlu ikut asuransi.
+7. pemeriksaan status kepemilikan rumah
+- Jika memiliki rumah (punya_rumah bernilai True), maka program akan mencetak bahwa wajib membayar pajak rumah. Jika tidak, program akan mencetak tidak wajib membayar pajak rumah.
+8. pesan untuk gaji dibawah umr
+- Jika gaji pengguna tidak lebih dari 3.000.000, maka program akan mencetak bahwa gaji belum mencapai UMR.
 # Latihan 3 Penggunaan Kondisi or
 # flowchart
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/Latihan%203%20kondisi%20or.drawio.png)
@@ -58,8 +73,20 @@ Penjelasan:
 ![foto](https://github.com/Manueljds2311105/foto/blob/fb7df9fb3391d172694e883dd6cb6895461c2b32/Latihan%203%20penggunaan%20kondisi%20or.png)
 
 Penjelasan:
-- 
+1. input bilangan
+- kode meminta untuk memasukkan tiga bilangan bulat. Fungsi input() digunakan untuk mengambil masukan dari pengguna, dan int() digunakan untuk mengonversi masukan tersebut dari string menjadi bilangan bulat. Bilangan yang dimasukkan disimpan dalam variabel a, b, dan c.
+2. pemeriksaan kondisi
+- pernyataan if yang memeriksa tiga kondisi menggunakan operator logika or.
+- Kondisi yang diperiksa adalah:
 
+    Apakah jumlah a dan b sama dengan c (a + b == c)
+
+    Apakah jumlah a dan b sama dengan c (a + b == c)  
+
+    Apakah jumlah c dan a sama dengan b (c + a == b)
+3. output hasil
+- Jika salah satu dari kondisi di atas terpenuhi, program akan mencetak "BENAR".
+- Jika tidak ada kondisi yang terpenuhi, program akan mencetak "SALAH".
 # kasus 1 Program Pemesanan Tiket Bioskop
 # kode python
 ```python
@@ -129,14 +156,14 @@ Penjelasan:
 3. input angka kedua
   - Program meminta untuk memasukkan angka kedua, yang juga diubah menjadi tipe data integer.
 4. Menentukan operasi yang ingin digunakan
-  - Program menggunakan struktur kontrol if-elif-else untuk menentukan operasi yang dipilih
+  - Program menggunakan struktur kontrol if-elif-else untuk menentukan operasi yang dipilih:
 
-Jika memilih + maka program akan menjumlahkan angka 1 dan angka 2
+    Jika memilih + maka program akan menjumlahkan angka 1 dan angka 2
 
-Jika memilih - maka program akan mengurangkan angka 1 dengan angka 2
+    Jika memilih - maka program akan mengurangkan angka 1 dengan angka 2
 
-Jika memilih * maka program akan mengalikan angka 1 dengan angka 2
+    Jika memilih * maka program akan mengalikan angka 1 dengan angka 2
 
-Jika memilih / maka program akan membagi angka 1 dengan angka 2
+    Jika memilih / maka program akan membagi angka 1 dengan angka 2
 5. Menampilkan Hasil
   - Program mencetak hasil dari operasi yang telah dilakukan. Fungsi str() digunakan untuk mengonversi hasil (yang berupa angka) menjadi string agar bisa digabungkan dengan teks lainnya. 
