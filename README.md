@@ -83,10 +83,10 @@ Penjelasan:
 3. input angka kedua
   - Program meminta untuk memasukkan angka kedua, yang juga diubah menjadi tipe data integer.
 4. Menentukan operasi yang ingin digunakan
-  -Program menggunakan struktur kontrol if-elif-else untuk menentukan operasi yang dipilih
-  -Jika memilih + maka program akan menjumlahkan angka 1 dan angka 2
-  -Jika memilih - maka program akan mengurangkan angka 1 dengan angka 2
-  -Jika memilih * maka program akan mengalikan angka 1 dengan angka 2
-  -Jika memilih / maka program akan membagi angka 1 dengan angka 2
+  - Program menggunakan struktur kontrol if-elif-else untuk menentukan operasi yang dipilih
+  - Jika memilih + maka program akan menjumlahkan angka 1 dan angka 2
+  - Jika memilih - maka program akan mengurangkan angka 1 dengan angka 2
+  - Jika memilih * maka program akan mengalikan angka 1 dengan angka 2
+  - Jika memilih / maka program akan membagi angka 1 dengan angka 2
 5. Menampilkan Hasil
-  -Program mencetak hasil dari operasi yang telah dilakukan. Fungsi str() digunakan untuk mengonversi hasil (yang berupa angka) menjadi string agar bisa digabungkan dengan teks lainnya. 
+  - Program mencetak hasil dari operasi yang telah dilakukan. Fungsi str() digunakan untuk mengonversi hasil (yang berupa angka) menjadi string agar bisa digabungkan dengan teks lainnya. 
