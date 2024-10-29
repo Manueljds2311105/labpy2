@@ -60,7 +60,7 @@ Penjelasan:
 - Kode ini memeriksa apakah gaji pengguna lebih besar dari 3.000.000. Jika ya, maka akan melanjutkan ke kode berikutnya.
 5. pesan jika gaji diatas umr
 - Jika gaji lebih dari 3.000.000, maka program akan mencetak bahwa gaji sudah di atas UMR.
-6. pemerriksaan status keluarga dan asuransi
+6. pemeriksaan status keluarga dan asuransi
 - Jika sudah berkeluarga (berkeluarga bernilai True), maka program akan menyarankan untuk ikut asuransi dan menabung untuk pensiun. Jika tidak, program akan mencetak bahwa tidak perlu ikut asuransi.
 7. pemeriksaan status kepemilikan rumah
 - Jika memiliki rumah (punya_rumah bernilai True), maka program akan mencetak bahwa wajib membayar pajak rumah. Jika tidak, program akan mencetak tidak wajib membayar pajak rumah.
