@@ -45,6 +45,7 @@ print(f"Total harga yang harus dibayar: Rp{total_harga:,.0f}")
 ```
 # flowchart
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/Tiket%20Bioskop.drawio.png)
+
 Penjelasan:
 - 
 
@@ -73,5 +74,6 @@ print("Hasil: " + str(hasil))
 ```
 # flowchart
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/Kalkulator.drawio.png)
+
 Penjelasan:
 - 
