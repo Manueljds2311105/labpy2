@@ -8,9 +8,9 @@ Dosen Pengampu:  Agung Nugroho, S.Kom., M.Kom.,
 Mata Kuliah: Bahasa Pemograman
 
 # Latihan 1 Menentukan Nilai Akhir
-# flowchart
+## flowchart
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/Latihan%201.drawio.png)
-# Hasil eksekusi program
+## Hasil eksekusi program
 ![foto](https://github.com/Manueljds2311105/foto/blob/fb7df9fb3391d172694e883dd6cb6895461c2b32/Latihan%201%20Menentukan%20nilai%20akhir.png)
 
 Penjelasan:
@@ -44,9 +44,9 @@ python
 5. Menampilkan hasil
 - Setelah semua perhitungan selesai, kode ini mencetak hasilnya, termasuk nama, nilai UTS, UAS, tugas, nilai akhir, nilai huruf, dan keterangan lulus atau tidak.
 # Latihan 2 Status Gaji Karyawan
-# flowchart
+## flowchart
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/latihan%202.drawio.png)
-# Hasil eksekusi program
+## Hasil eksekusi program
 ![foto](https://github.com/Manueljds2311105/foto/blob/fb7df9fb3391d172694e883dd6cb6895461c2b32/Latihan%202%20Membuat%20Program%20Status%20Gaji%20Karyawan.png)
 
 Penjelasan:
@@ -67,9 +67,9 @@ Penjelasan:
 8. pesan untuk gaji dibawah umr
 - Jika gaji pengguna tidak lebih dari 3.000.000, maka program akan mencetak bahwa gaji belum mencapai UMR.
 # Latihan 3 Penggunaan Kondisi or
-# flowchart
+## flowchart
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/Latihan%203%20kondisi%20or.drawio.png)
-# Hasil eksekusi program
+## Hasil eksekusi program
 ![foto](https://github.com/Manueljds2311105/foto/blob/fb7df9fb3391d172694e883dd6cb6895461c2b32/Latihan%203%20penggunaan%20kondisi%20or.png)
 
 Penjelasan:
@@ -88,7 +88,7 @@ Penjelasan:
 - Jika salah satu dari kondisi di atas terpenuhi, program akan mencetak "BENAR".
 - Jika tidak ada kondisi yang terpenuhi, program akan mencetak "SALAH".
 # kasus 1 Program Pemesanan Tiket Bioskop
-# kode python
+## kode python
 ```python
 # Harga tiket
 harga = {'reguler': 50000, 'vip': 100000}
@@ -104,9 +104,9 @@ total_harga = harga.get(tipe_tiket) * (1 - diskon_member if status_member == "ya
 # Menampilkan total harga
 print(f"Total harga yang harus dibayar: Rp{total_harga:,.0f}")
 ```
-# flowchart
+## flowchart
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/Tiket%20Bioskop.drawio.png)
-# Hasil eksekusi program
+## Hasil eksekusi program
 ![foto](https://github.com/Manueljds2311105/foto/blob/fb7df9fb3391d172694e883dd6cb6895461c2b32/Tiket%20Bioskop.py.png)
 
 Penjelasan:
@@ -122,7 +122,7 @@ Penjelasan:
 - Terakhir, kode ini menampilkan total harga yang harus dibayar dalam format yang lebih mudah dibaca, yaitu dengan menambahkan pemisah ribuan dan tanpa desimal. Misalnya, jika total harga adalah Rp80.000, maka output akan ditampilkan sebagai "Total harga yang harus dibayar: Rp80.000".
 # kasus 2 program kalkulator sederhana
 
-# kode python
+## kode python
 ```python
 # Program Kalkulator Sederhana
 
@@ -143,9 +143,9 @@ else:
 
 print("Hasil: " + str(hasil))
 ```
-# flowchart
+## flowchart
 ![foto](https://github.com/Manueljds2311105/foto/blob/c5e53c201c0a249ff091ac5e38264feaafc56e8a/Kalkulator.drawio.png)
-# Hasil eksekusi program
+## Hasil eksekusi program
 ![foto](https://github.com/Manueljds2311105/foto/blob/fb7df9fb3391d172694e883dd6cb6895461c2b32/Kalkulator%20sederhana.py.png)
 
 Penjelasan:
